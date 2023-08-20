@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   background: #293f50;
-  line-height: 1;
+  line-height: 1.5rem;
   color: #888;
   font: 300 16px/2px "Lato","Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -245,9 +245,6 @@ ul li {
   line-height: 1.2rem;
 }
 
-legend {
-
-}
 
 /* Buttons */
 .btn {
@@ -411,4 +408,81 @@ textarea {
 .why-attend {
   list-style: square;
   margin: 0 0 22px 30px;
+}
+
+/* Schedule */
+
+th, td {
+  padding-bottom: 22px;
+  vertical-align: top;
+}
+
+th {
+  padding-right: 45px;
+  text-align: right;
+  width: 20%;
+}
+
+td {
+  width: 40%;
+}
+
+thead {
+  line-height: 44px;
+}
+
+thead th {
+  color: #648880;
+  font-size: 24px;
+}
+
+tbody th {
+  color: #a9b2b9;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 22px;
+  text-transform: uppercase;
+}
+
+table {
+  margin-bottom: 44px;
+  width: 100%;
+}
+
+table:last-child {
+  margin-bottom: 0;
+}
+
+tbody td {
+  border-top: 1px solid #dfe2e5;
+  padding-top: 21px;
+}
+
+tbody td:first-of-type {
+  padding-right: 15px;
+}
+
+tbody td:last-of-type {
+  padding-left: 15px;
+}
+
+tbody td:only-of-type {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+table a {
+  color: #888;
+}
+
+table h4 {
+  margin-bottom: 0;
+}
+
+.schedule-offset {
+  color: #a9b2b9;
+}
+
+td a h4 {
+  line-height: 4rem;
 }
