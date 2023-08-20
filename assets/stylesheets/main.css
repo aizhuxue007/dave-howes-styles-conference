@@ -83,6 +83,10 @@ a {
   text-decoration: none;
 }
 
+a + a {
+  margin-left: 1em;
+}
+
 p a {
   border-bottom: 1px solid #dfe2e5;
 }
@@ -204,7 +208,7 @@ table {
 
 .row,
 .row-alt {
-  min-width: 960px;
+  width: 100%;
 }
 
 .lead {
